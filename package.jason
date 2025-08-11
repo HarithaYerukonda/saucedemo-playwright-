@@ -1,0 +1,14 @@
+{
+    "name": "saucedemo-playwright",
+    "version": "1.0.0",
+    "description": "Playwright automation framework for Sauce Demo site",
+    "scripts": {
+        "test": "npx playwright test",
+        "test:login": "npx playwright test tests/login.spec.js",
+        "test:headed": "npx playwright test --headed",
+        "report": "npx playwright show-report"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.54.2"
+    }
+}
